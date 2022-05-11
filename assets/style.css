@@ -1,0 +1,61 @@
+body {
+	margin: 0;
+	font-family: 'Georgia', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22.72px;
+	color:#545454;	
+	
+}
+
+/* Container */
+.container {
+   width: 100%;
+   max-width: 1100px;
+   margin: 0 auto;
+	display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+/* Hero */
+.hero {
+	display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100vh;
+
+	background: #F6F6F6;
+	background-size: cover;
+}
+
+/*Intro*/
+.card {
+	display: block;
+	background-color: #FAFAFA;
+	width: 20%;
+	padding: 10px;
+	margin: 10px;
+}
+
+.card img {
+	width: 100%;
+   display: block;
+   margin: 0 auto;
+}
+
+.card__name {
+	text-align: center;
+}
+
+.card__button {
+	width: fit-content;
+	margin: 0 auto;	
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	font-size: 16px;
+	border: 2px solid #F1CDB3;
+	border-radius: 100px;
+}
